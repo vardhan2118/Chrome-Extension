@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  min-width: 400px;
+}
+input {
+  width: 100%;
+  margin-bottom: 6px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  box-sizing: border-box;
+  border-color: #007bff;
+}
+input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+button {
+  color: white;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-radius: 5px;
+  margin-right: 4px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #0050ff;
+}
+#delete-btn {
+  color: #007bff;
+  background-color: white;
+  border: 1px solid #007bff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+#delete-btn:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+  padding-left: 5px;
+}
+
+li {
+  margin-top: 5px;
+}
+
+li a {
+  color: #007bff;
+}
